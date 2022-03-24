@@ -53,7 +53,7 @@
         <div class="container">
             <div class="row text-centre">
         <div class="col-md">
-            <div class="card">
+            <div id="clickme">
             <h2> DESIGN</h2>
          <h2><img src="/assets/services_icons/design_icon.png" alt="DESIGN"></h2>
             <div class="card-1">
@@ -64,7 +64,7 @@
             </div>
          </div>
          <div class="col-md-4">
-            <div class="card">
+            <div class="clickme">
             <h6>DEVELOPMENT</h6>
             <h3 class="img"> <img src="/assets/services_icons/dev_icon.png" alt="DEVELOPMENT"></h3>
             <div class="card-1">
@@ -75,7 +75,7 @@
             </div>
         </div>
         <div class="col-md">
-            <div class="card">
+            <div id="clickme">
             <h6>PRODUCT MANAGMENT</h6>
             <h4 class="img"> <img src="/assets/services_icons/product_icon.png" alt="PRODUCT MANANGEMENT"></h4>
             <div class="card-1">
@@ -94,29 +94,42 @@
         <h1>PORTFOLIO</h1>
         <div class="container">
             <div class="row">
-                <div class="column">
+                <div class="col-sm-4">
+                    <div class="card">
                     <img src="/assets/portfolio/work1.jpg">
                 </div>
-                    <div class="column">
+                </div>
+                    <div class="col-sm-4">
+                        <div class="card">
                         <img src="/assets/portfolio/work2.jpg">
                     </div>
-                    <div class="column">
+                    <div class="col">
+                        <div class="card">
                         <img src="/assets/portfolio/work3.jpg">
                     </div>
-                    <div class="column">
+                    <div class="col-md">
+                        <div class="card">
                         <img src="/assets/portfolio/work4.jpg">
                     </div>
-                    <div class="column">
+                    <div class="col-md">
+                        <div class="card">
                         <img src="/assets/portfolio/work5.jpg">
                     </div>
-                    <div class="column">
+                    </div>
+                    <div id="col-md">
+                        <div class="card">
                         <img src="/assets/portfolio/work6.jpg">
                     </div>
-                    <div class="column">
+            </div>
+                    <div clas="col-md-4">
+                        <div class="card">
                         <img src="/assets/portfolio/work7.jpg">
                     </div>
-                    <div class="column">
+            </div>
+                    <div class="col-sm-4">
+                        <div class="card">
                         <img src="/assets/portfolio/work8.jpg">
+                    </div>
                     </div>
                         
         </div>
@@ -126,14 +139,15 @@
         <h1 class="text-white"> CONTACT US</h1>
         <form>
             <div class =contact>
-                <input type="text" name="Name" placeholder="Name..">
-                <input type="email" name="Email" placeholder="Email..">
+                <input type="text" name="Name" id="name" placeholder="Name..">
+                <input type="email" name="Email" id="email" placeholder="Email..">
             <div>
             <div class>
-                <input  type="text" name="your message here" placeholder="Your message here...">
+                <input  type="text" name="your message here" id="message" placeholder="Your message here...">
             </div>
 
             </div>
+            <button class="btn" id="btn" type="submit">Submit</button>
         </form>
          </div>
         </section>
