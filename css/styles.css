@@ -46,7 +46,7 @@ h3{
     justify-content: center;
 }
 #contact{
-    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-image: url(../assets/backgrounds/c_image.jpg);
     height: 100vh;
     display: flex;
     background-repeat: no-repeat;
