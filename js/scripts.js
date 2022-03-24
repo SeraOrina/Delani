@@ -6,7 +6,9 @@ $(document).ready(function () {
     $("#clickme").click(function(){
         $("#card-1").toggle()
     });
-    $()
+        $("button").click(function(){
+          $("p").toggle();
+        });
 });
 
 
