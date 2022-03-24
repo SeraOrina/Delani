@@ -50,3 +50,18 @@ h3{
     justify-content: center;
     
 }
+.contact{
+    border-width: 200px;
+}
+.column{
+    float: left;
+    width: 25%;
+}
+.card-1{
+    display: none;
+}
+.services{
+    display: flex;
+    text-align: center;
+
+}
